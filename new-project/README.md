@@ -17,3 +17,13 @@ The changes from the "development" branch are merged into the "main" branch succ
 Definition of Done (DoD):
 
 Link to new-project Readme file
+
+For readme file:
+create a new repository on the command line
+echo "# Prometheus" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wld22/Prometheus.git
+git push -u origin main
